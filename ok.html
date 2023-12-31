@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Love Greeting</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccb; /* You can change this to your preferred background color */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        #loveMessage {
+            margin-bottom: 20px;
+        }
+
+        #showPictureBtn {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #showPictureBtn:hover {
+            background-color: #45a049;
+        }
+
+        #girlfriendPicture {
+            display: none;
+            max-width: 100%;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loveMessage">
+        <h1>Happy New Year, Sameen!</h1>
+        <p>New Year, same love, stronger than ever.</p>
+        <p>As the clock strikes midnight, I'm grateful to start another year with you by my side.</p>
+        <p>New Year, new adventures, but my love for you remains constant.</p>
+        <p>Wishing my love a New Year filled with joy, laughter, and endless love.</p>
+        <button id="showPictureBtn" onclick="showPicture()">Click here, Sameen</button>
+        <img id="girlfriendPicture" src="html.jpeg" alt="Sameen's Picture">
+    </div>
+
+    <script>
+        function showPicture() {
+            var picture = document.getElementById("girlfriendPicture");
+            picture.style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
